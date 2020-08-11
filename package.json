@@ -3,9 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "bin": {
+    "lint": "./bin/index.js"
+  },
+  "scripts": {
+    "build": "babel src/index.js --out-dir lib"
+  },
   "dependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
     "@ecomfe/eslint-config": "^4.0.0",
     "@ecomfe/stylelint-config": "^1.0.0",
+    "babel-eslint": "^10.1.0",
+    "commander": "^6.0.0",
+    "core-js": "^3.6.5",
     "eslint": "^7.6.0",
     "eslint-plugin-babel": "^5.3.1",
     "eslint-plugin-import": "^2.22.0",

@@ -49,6 +49,6 @@ module.exports = {
     "react/no-array-index-key": "warn",
     "react-hooks/rules-of-hooks": "error", // 检查 Hook 的规则
     "react-hooks/exhaustive-deps": "error", // 检查 effect 的依赖
-    "babel/object-curly-spacing": [2, "always"]
+    "babel/object-curly-spacing": [2, "never"]
   }
 };
